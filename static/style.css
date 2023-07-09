@@ -12,31 +12,34 @@ body {
 	line-height: 1.5em;
 	font-family:Georgia, 'Times New Roman', Times, serif;
 	font-size: 12px;
-	/* background: #2d0592 url(images/main.jpg) repeat; */
-	
+	background-image: url('main.jpg');	
 }
 
 .navbar{
     display: flex;
     max-width: 100%;
-    margin-top: 20px;
     padding-top: 20px;
-    background-color: #000000;
+    background-color: powderblue;
     padding-left: 20px;
-    align-items: left;
-    border-bottom: 2px solid blue;
+    align-items: center;
+    border-bottom: 2px solid;
 }
 .navbar h2{
-    color: violet;
+    color: black;
+    word-spacing: 1mm;
 }
 
 .navbar .links{
-    margin-left: 50px;
+    margin-left: 800px;
     padding: 20px;
+    color: black;
     text-align: right;
     text-decoration:solid;
     word-spacing: 0.5em;
+    font-size: medium;
+    align-content: flex-end;
 }
+
 .home{
     color: black;
     padding: 20px;
@@ -45,6 +48,7 @@ body {
     margin: 20px;
     text-align: left;
     word-spacing: 0.5em;
+    line-height: 10mm;
     font-size: large;
 }
 .me{
@@ -52,27 +56,26 @@ body {
     padding-top: 0px;
     padding-left: 40px;
     text-decoration:double;
-    color:violet;
-    background-color: black;
+    color:black;
     width: 100%;
 }
 
 .about{
     padding-left: 300px;
     margin: 20px;
-    color: blue;
+    color: black;
 }
 .school{
     padding-top: 20px;
     padding-left: 300px;
     margin: 20px;
-    color: blue;
+    color: black;
 }
 .work{
     padding-top: 20px;
     padding-left: 300px;
     margin: 20px;
-    color: blue;
+    color: black;
 }
 .container{
     /* padding-top: 100px;
@@ -92,7 +95,7 @@ body {
     width:200px;
 	cursor: pointer;
 	font-size: 12px;
-    background-color: blue;
+    background-color: gray;
 	text-align: center;
 	vertical-align: bottom;
     border-radius: 2em;
@@ -146,8 +149,9 @@ body {
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
     color: #008000;
-    border-spacing: 10px;
+    border-spacing: 200px;
     align-items: center;
+    white-space: calc();
 }
 
 .schoolimg{
@@ -160,32 +164,32 @@ body {
     padding-top: 20px;
     padding-left: 40px;
     margin: 20px;
-    color: blue;
-    word-spacing: 2em;
+    color: black;
+    word-spacing: 1em;
 }
 .project{
     padding-top: 20px;
     padding-left: 40px;
     margin: 20px;
-    color: blue;
+    color: black;
 }
 .certificate{
     padding-top: 20px;
     padding-left: 40px;
     margin: 20px;
-    color: blue;
+    color: black;
 }
 .achievement{
     margin: 20px;
     padding-top: 20px;
     padding-left: 40px; 
-    color:blue;
+    color:black;
 }
 .award{
     padding-top: 20px;
     padding-left: 40px;
     margin: 20px;
-    color: blue;
+    color: black;
 }
 .reference{
     padding-top: 20px;
@@ -204,7 +208,6 @@ a:hover{
 
 /* column pic */
 .column1 {
-    background-color: #000000;
     float:left;
     width: 50%;
     align-items: center;
@@ -223,9 +226,8 @@ a:hover{
     transition: 0.5s;
 }
 .column2 {
-    background-color: #000000;
     float:left;
     width: 50%;
     align-items: center;
-    height: 80%;
+    height: 100%;
 }
