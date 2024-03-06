@@ -1,1 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;   
+}
 
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family:'Arial', sans-serif;
+    background-color: rgba(0,0,0,0.2);
+    background-image: url('../bw.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar{
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.navbar h2{
+    color: gray;
+    font-size: 24px;
+    padding: 15px;
+    margin: 0;
+    text-align: left;
+}
+
+.navbar .links{
+    list-style:none;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.navbar .links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar .links a{
+    text-decoration: none;
+    color:cornflowerblue;
+    font-size: 16px;
+}
+
+.navbar .links a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.home{
+    color: grey;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 20px;
+    text-align: left;
+    word-spacing: 0.5em;
+    line-height: 10mm;
+    font-size: 22px;
+}
+
+.SocialMedia{
+    font-size: 36px;
+    cursor: pointer;
+    color: grey;
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgba(0,0,0,0.2);
+}
+.SocialMedia h2{
+    text-align: center;
+    color: black;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover,.fa-hackerrank:hover,.fa-bitbucket:hover 
+{
+    color: #008000;
+    border-spacing: 200px;
+    align-items: center;
+    white-space: calc();
+}
+
+.skill{
+    padding-left: 80px;
+    color: grey;
+    word-spacing: 1em;
+    background-color: rgba(0,0,0,0.2);
+}
+.skill h2{
+    text-align: center;
+    color: black;
+}
+
+.achievement{
+    padding-left: 40px; 
+    color:grey;
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+}
+.achievement h2{
+    text-align: center;
+    color: black;
+}
+a:active,a:visited{
+    background-color: transparent;
+    cursor:pointer;
+    text-decoration:double;
+}
